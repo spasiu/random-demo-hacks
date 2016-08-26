@@ -19,14 +19,14 @@ example script use:
     <script src="https://cdn.smooch.io/smooch.min.js"></script>
     <script src="/script.js"></script>
     <script>
-        Smooch.init({ appToken: '8hncffsdu67efgklhf803ri8xzcd9', userId: 'jim'});
+        Smooch.init({ appToken: 'your_app_token', userId: 'jim'});
         _messengerDemo({
             element: document.getElementById('main'),
             timeout: 5000,
             text: 'Send to Messenger',
             message: 'This is an important message',
-            kid: 'app_57bfbksdfkjdfsfjsdhfsd',
-            secret: 'jsdlfihfsdlihsfd_NA5oLLtI-wj'
+            kid: 'your_key_id',
+            secret: 'your_secret'
         });
     </script>
 </body>
